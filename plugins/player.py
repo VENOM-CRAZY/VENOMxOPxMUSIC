@@ -221,7 +221,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/bba6f800202a4c6c08ff6.png"
+            thumb_name = "https://telegra.ph/file/5c86187e31adcf8de6925.png"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -229,7 +229,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="MUSIC-REPO",
-                            url=f"https://t.me/V3NOM_SUPPORT")
+                            url=f"https://t.me/iam_your_heart4")
 
                 ]
             ]
@@ -282,8 +282,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💞𝐒𝐔𝐌𝐏𝐎𝐑𝐓",
-                            url=f"https://t.me/v3nom_support")
+                            text="💞𝘾𝙤𝙣𝙩𝙖𝙘𝙩 𝙝𝙚𝙧𝙚",
+                            url=f"https://t.me/iam_your_heart4")
 
                 ]
             ]
@@ -335,7 +335,7 @@ async def play(_, message: Message):
 async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/bba6f800202a4c6c08ff6.png", 
+                             photo="https://telegra.ph/file/5c86187e31adcf8de6925.png", 
                              caption="**💥 𝙋𝘼𝙐𝙎𝙀...**"
     )
 
@@ -346,7 +346,7 @@ async def pause(_, message: Message):
 async def resume(_, message: Message):
     await clientbot.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/bba6f800202a4c6c08ff6.png", 
+                             photo="https://telegra.ph/file/5c86187e31adcf8de6925.png", 
                              caption="**💥 𝑺𝑻𝑨𝑹𝑻𝑬𝑫 𝑷𝑳𝑨𝒀𝑰𝑵𝑮...**"
     )
 
@@ -380,7 +380,7 @@ async def skip(_, message: Message):
 
 
     await message.reply_photo(
-                             photo="https://telegra.ph/file/bba6f800202a4c6c08ff6.png", 
+                             photo="https://telegra.ph/file/5c86187e31adcf8de6925.png", 
                              caption=f'* 𝐒𝐊𝐈𝐏𝐄𝐃...**'
    ) 
 
@@ -396,7 +396,7 @@ async def stop(_, message: Message):
 
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/bba6f800202a4c6c08ff6.png", 
+                             photo="https://telegra.ph/file/5c86187e31adcf8de6925.png", 
                              caption="**💥 Sʈøƥƥɘɗ 🌷 ...**"
     )
 
@@ -414,6 +414,6 @@ async def admincache(client, message: Message):
     )
 
     await message.reply_photo(
-                              photo="https://telegra.ph/file/bba6f800202a4c6c08ff6.png",
+                              photo="https://telegra.ph/file/5c86187e31adcf8de6925.png",
                               caption="**💥  Ʀɘɭøɑɗɘɗ 🌷 ...**"
     )
