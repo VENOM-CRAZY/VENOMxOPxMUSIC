@@ -89,7 +89,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: VENOM  (@VENOMxCRAZY)",
+        f"Powered By: Broken Mr z  (@iam_your_heart4)",
         (255, 255, 255),
         font=font,
     )
@@ -164,7 +164,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/bba6f800202a4c6c08ff6.png"
+        thumb_name = "https://telegra.ph/file/5c86187e31adcf8de6925.png"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
