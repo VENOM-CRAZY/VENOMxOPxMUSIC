@@ -43,9 +43,9 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ repo ❱ ➕", url=f"https://github.com/VENOMxCRAZY9/VENOMxOPxMUSIC"),
-                        InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/iam_your_heart4"),
-                      InlineKeyboardButton("• Group", url=f"https://t.me/iam_your_heart4"),
+                        "➕ ❰ repo ❱ ➕", url=f"https://github.com/guddu7866/VENOMxOPxMUSIC"),
+                        InlineKeyboardButton("• 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐇𝐄𝐑𝐄", url=f"https://t.me/iam_your_heart4"),
+                      InlineKeyboardButton("• 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐇𝐄𝐑𝐄", url=f"https://t.me/iam_your_heart4"),
                   ],[
                       InlineKeyboardButton("CREATER", url=f"https://t.me/iam_your_heart4")
                 ]
@@ -55,10 +55,10 @@ async def start_(client: Client, message: Message):
     )
     
     
-@Client.on_message(commandpro(["/start", "/alive", "venom"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["/s", "/alive", "Broken"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/55d8a6f1a9b87eaba142f.png",
+        photo=f"https://telegra.ph/file/69d6eac347596a636aa07.png",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -71,16 +71,16 @@ async def start(client: Client, message: Message):
     )
 
 
-@Client.on_message(commandpro(["repo", "#repo", "@repo", "/repo", "source"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["re", "#re", "@re", "/re", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/55d8a6f1a9b87eaba142f.png",
+        photo=f"https://telegra.ph/file/69d6eac347596a636aa07.png",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐇𝐄𝐑𝐄 ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://github.com/VENOMxCRAZY9/VENOMxOPxMUSIC")
+                        "💥 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐇𝐄𝐑𝐄 ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://github.com/guddu7866/VENOMxOPxMUSIC")
                 ]
             ]
         ),
