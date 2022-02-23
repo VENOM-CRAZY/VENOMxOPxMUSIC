@@ -30,10 +30,10 @@ async def _human_time_duration(seconds):
     
    
 
-@Client.on_message(command("start") & filters.private & ~filters.edited)
+@Client.on_message(command("s") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/da3e7fe6a87f6bfe9e2d3.png",
+        photo=f"https://telegra.ph/file/69d6eac347596a636aa07.png",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
 💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ 𝙎𝙪𝙥𝙚𝙧𝙁𝙖𝙨𝙩 𝙑𝘾 𝙁𝙪𝙘𝙠𝙚𝙧 
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
@@ -44,10 +44,10 @@ async def start_(client: Client, message: Message):
                 [
                     InlineKeyboardButton(
                         "➕ ❰ repo ❱ ➕", url=f"https://github.com/VENOMxCRAZY9/VENOMxOPxMUSIC"),
-                        InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/v3n0m_0p"),
-                      InlineKeyboardButton("• Group", url=f"https://t.me/v3nom_support"),
+                        InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/iam_your_heart4"),
+                      InlineKeyboardButton("• Group", url=f"https://t.me/iam_your_heart4"),
                   ],[
-                      InlineKeyboardButton("CREATER", url=f"https://t.me/venomXcrazy")
+                      InlineKeyboardButton("CREATER", url=f"https://t.me/iam_your_heart4")
                 ]
                 
            ]
@@ -64,7 +64,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💞", url=f"https://t.me/girls_boys_chatting10")
+                        "💥 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐇𝐄𝐑𝐄 💞", url=f"https://t.me/iam_your_heart4")
                 ]
             ]
         ),
@@ -80,7 +80,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💥 ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://github.com/VENOMxCRAZY9/VENOMxOPxMUSIC")
+                        "💥 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐇𝐄𝐑𝐄 ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://github.com/VENOMxCRAZY9/VENOMxOPxMUSIC")
                 ]
             ]
         ),
