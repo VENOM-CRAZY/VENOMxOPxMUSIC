@@ -1,4 +1,4 @@
-# Aditya Halder // @AdityaHalder
+# Broken Mr z // @iam_your_heart4
 
 import os
 import aiofiles
@@ -89,7 +89,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: VENOM  (@VENOMxCRAZY)",
+        f"Powered By: BROKEN Mr z  (@iam_your_heart4)",
         (255, 255, 255),
         font=font,
     )
@@ -117,7 +117,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Aditya_Player"
+        user.first_name = "Broken_mr_z"
     usar = user
     wew = usar.id
     try:
@@ -164,7 +164,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/bba6f800202a4c6c08ff6.png"
+        thumb_name = "https://telegra.ph/file/69d6eac347596a636aa07.png"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -221,7 +221,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/bba6f800202a4c6c08ff6.png"
+            thumb_name = "https://telegra.ph/file/69d6eac347596a636aa07.png"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -229,7 +229,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="MUSIC-REPO",
-                            url=f"https://t.me/V3NOM_SUPPORT")
+                            url=f"https://t.me/iam_your_heart4")
 
                 ]
             ]
@@ -282,8 +282,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💞𝐒𝐔𝐌𝐏𝐎𝐑𝐓",
-                            url=f"https://t.me/v3nom_support")
+                            text="💞𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐇𝐄𝐑𝐄",
+                            url=f"https://t.me/iam_your_heart4")
 
                 ]
             ]
@@ -335,7 +335,7 @@ async def play(_, message: Message):
 async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/bba6f800202a4c6c08ff6.png", 
+                             photo="https://telegra.ph/file/69d6eac347596a636aa07.png", 
                              caption="**💥 𝙋𝘼𝙐𝙎𝙀...**"
     )
 
@@ -346,7 +346,7 @@ async def pause(_, message: Message):
 async def resume(_, message: Message):
     await clientbot.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/bba6f800202a4c6c08ff6.png", 
+                             photo="https://telegra.ph/file/69d6eac347596a636aa07.png", 
                              caption="**💥 𝑺𝑻𝑨𝑹𝑻𝑬𝑫 𝑷𝑳𝑨𝒀𝑰𝑵𝑮...**"
     )
 
@@ -380,7 +380,7 @@ async def skip(_, message: Message):
 
 
     await message.reply_photo(
-                             photo="https://telegra.ph/file/bba6f800202a4c6c08ff6.png", 
+                             photo="https://telegra.ph/file/69d6eac347596a636aa07.png", 
                              caption=f'* 𝐒𝐊𝐈𝐏𝐄𝐃...**'
    ) 
 
@@ -396,7 +396,7 @@ async def stop(_, message: Message):
 
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/bba6f800202a4c6c08ff6.png", 
+                             photo="https://telegra.ph/file/69d6eac347596a636aa07.png", 
                              caption="**💥 Sʈøƥƥɘɗ 🌷 ...**"
     )
 
@@ -414,6 +414,6 @@ async def admincache(client, message: Message):
     )
 
     await message.reply_photo(
-                              photo="https://telegra.ph/file/bba6f800202a4c6c08ff6.png",
+                              photo="https://telegra.ph/file/69d6eac347596a636aa07.png",
                               caption="**💥  Ʀɘɭøɑɗɘɗ 🌷 ...**"
     )
