@@ -130,7 +130,7 @@ repo(){
 
 	[[ ! "VENOMxOPxMUSIC" == $(basename -s .git `git config --get remote.origin.url`) ]] &&
 
-	git clone https://github.com/VENOM-CRAZY/VENOMxOPxMUSIC &&  cd VENOMxOPxMUSIC
+	git clone https://github.com/DK143GURJAR/VENOMxOPxMUSIC &&  cd VENOMxOPxMUSIC
 
 }
 
