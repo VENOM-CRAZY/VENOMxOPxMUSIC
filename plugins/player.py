@@ -1,4 +1,4 @@
-# VENOMxCRAZY // @VENOMxCRAZY
+# DK143GURJAR // @DK143GURJAR
 
 import os
 import aiofiles
@@ -89,7 +89,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: VENOM  (@VENOMxCRAZY)",
+        f"Powered By: DK143GURJAR  (@DK143GURJAR)",
         (255, 255, 255),
         font=font,
     )
@@ -117,7 +117,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Aditya_Player"
+        user.first_name = "Dk143gurjar"
     usar = user
     wew = usar.id
     try:
@@ -164,7 +164,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://te.legra.ph/file/d4094ea0b4f1d94ed2932.png"
+        thumb_name = "https://te.legra.ph/file/5e31ae87791fdc24d74ae.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -173,9 +173,9 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(text="𝐆 𝐑 𝐎 𝐔 𝐏", url=f"https://t.me/{SUPPORT_GROUP}"),
-                      InlineKeyboardButton(text="𝐂 𝐇 𝐀 𝐍 𝐍 𝐄 𝐋", url=f"https://t.me/{SUPPORT_CHANNEL}"),
+                      InlineKeyboardButton(text="𝐂 𝐇 𝐀 𝐍 𝐍 𝐄 𝐋", url=f"https://t.me/Dk_music_shayari"),
                   ],[
-                      InlineKeyboardButton(text="𝐎 𝐖 𝐍 𝐄 𝐑", url=f"https://t.me/{OWNER_USERNAME}")
+                      InlineKeyboardButton(text="𝐎 𝐖 𝐍 𝐄 𝐑", url=f"https://t.me/Dk143gurjar")
 
                 ]
             ]
@@ -223,7 +223,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://te.legra.ph/file/d4094ea0b4f1d94ed2932.png"
+            thumb_name = "https://te.legra.ph/file/e4ea0da1ac29a9a65f13f.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -249,9 +249,9 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "**𝐏𝐥𝐞𝐚𝐬𝐞 𝐓𝐲𝐩𝐞 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠 𝐍𝐚𝐦𝐞 𝐓𝐨 𝐏𝐥𝐚𝐲 𝐌𝐮𝐬i𝐜...**"
+                "**𝐁𝐚𝐛𝐲 𝐬𝐨𝐧𝐠 𝐤𝐚 𝐧𝐚𝐦𝐞 𝐭𝐨 𝐥𝐢𝐤𝐡 ...**"
             )
-        await lel.edit("**𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐧𝐠  𝐓𝐨  𝐒𝐞𝐫𝐯𝐞𝐫🩸...**")
+        await lel.edit("**𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐧𝐠  𝐓𝐨  𝐒𝐞𝐫𝐯𝐞𝐫 𝐩𝐥𝐞𝐚𝐬𝐞 𝐰𝐚𝐢𝐭 𝐛𝐚𝐛𝐲 @Dk143gurjar 🩸...**")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -276,7 +276,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "**🔊𝐒𝐨𝐧𝐠 𝐍𝐨𝐭 𝐟𝐨𝐮𝐧𝐝 𝐏𝐥𝐞𝐚𝐬𝐞 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧...**"
+                "**🔊𝐒𝐨𝐧𝐠 𝐍𝐨𝐭 𝐟𝐨𝐮𝐧𝐝 𝐏𝐥𝐞𝐚𝐬𝐞 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 𝐛𝐚𝐛𝐲 ...**"
             )
             print(str(e))
             return
@@ -339,7 +339,7 @@ async def play(_, message: Message):
 async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://te.legra.ph/file/d1b8c412b0873b6fe1abc.png", 
+                             photo="https://te.legra.ph/file/e4ea0da1ac29a9a65f13f.jpg", 
                              caption="**𝐏𝐚𝐮𝐬𝐞𝐝⏸...**"
     )
 
@@ -350,7 +350,7 @@ async def pause(_, message: Message):
 async def resume(_, message: Message):
     await clientbot.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://te.legra.ph/file/d1b8c412b0873b6fe1abc.png", 
+                             photo="https://te.legra.ph/file/e4ea0da1ac29a9a65f13f.jpg", 
                              caption="**𝐑𝐞𝐬𝐮𝐦𝐞⏹...**"
     )
 
@@ -384,8 +384,8 @@ async def skip(_, message: Message):
 
 
     await message.reply_photo(
-                             photo="https://te.legra.ph/file/0b166f1606f270afae443.png", 
-                             caption=f'**𝐒𝐊𝐈𝐏𝐄𝐃...**'
+                             photo="https://te.legra.ph/file/e4ea0da1ac29a9a65f13f.jpg", 
+                             caption=f'**𝐁𝐚𝐛𝐲 𝐬𝐨𝐧𝐠 𝐫𝐮𝐤 𝐠𝐲𝐚 𝐡𝐚𝐢...**'
    ) 
 
 
@@ -400,8 +400,8 @@ async def stop(_, message: Message):
 
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
-                             photo="https://te.legra.ph/file/3602370d14c0d3e6b700c.png", 
-                             caption="**𝐒𝐭𝐨𝐩𝐩𝐞𝐝...**"
+                             photo="https://te.legra.ph/file/c15e374771b1b6807bd84.jpg", 
+                             caption="**𝐒𝐭𝐨𝐩𝐩𝐞𝐝 𝐃𝐤 𝐦𝐮𝐬𝐢𝐜...**"
     )
 
 
@@ -418,6 +418,6 @@ async def admincache(client, message: Message):
     )
 
     await message.reply_photo(
-                              photo="https://te.legra.ph/file/d4094ea0b4f1d94ed2932.png",
+                              photo="https://te.legra.ph/file/e4ea0da1ac29a9a65f13f.jpg",
                               caption="**𝐑𝐞𝐥𝐨𝐝𝐞𝐝....**"
     )
