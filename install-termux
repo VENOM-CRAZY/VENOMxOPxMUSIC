@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 
-# VENOM-CRAZY - VENOMxOPxMUSIC
+# Dk143gurjar - VENOMxOPxMUSIC
 
-# Copyright (C) 2021-2022 TeamVenom
+# Copyright (C) 2021-2022 Dk_music_shayari
 
 #
 
-# This file is a part of < https://github.com/VENOM-CRAZY/VENOMxOPxMUSIC/ >
+# This file is a part of < https://github.com/DK143GURJAR/VENOMxOPxMUSIC/ >
 
-# PLease read the GNU Affero General Public License in <https://www.github.com/VENOM-CRAZY/VENOMxOPxMUSIC/LICENSE/>.
+# PLease read the GNU Affero General Public License in <https://www.github.com/DK143GURJAR/VENOMxOPxMUSIC/LICENSE/>.
 
 if [ -d "resources" ]
 
@@ -20,7 +20,7 @@ else
 
     apt install git -y
 
-    git clone https://github.com/VENOM-CRAZY/VENOMxOPxMUSIC
+    git clone https://github.com/DK143GURJAR/VENOMxOPxMUSIC
 
     cd VENOMxOPxMUSIC
 
