@@ -34,6 +34,10 @@
           "description": "PUT UR USERNAME HERE WITHOU @ LIKE VENOMxCRAZY",
           "required": true
         },
+        "SUDO_USERS": {
+          "description": "PUT UR TG ID HERE GET IT FROM @ALICIAOP_BOT",
+          "required": true
+        },
         "STRING_SESSION": {
             "description": "enter pyrogram string get it from @venomstring_bot",
             "required": true
